@@ -9,4 +9,9 @@ public class LossWarranty {
     private double lossAmount;
     private double approvedAmount;
     private boolean approved;
+    private double valorNuevo;
+    private double valorInicial;
+    private int antiguedad;
+    private double valorPreexistencia;
+    private String causa;
 }
