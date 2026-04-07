@@ -1,6 +1,8 @@
 package helloworld.liquidaciondiversos;
 
 
+import helloworld.liquidaciondiversos.loss.Loss;
+import helloworld.liquidaciondiversos.policy.Policy;
 import lombok.Data;
 
 import java.util.List;
