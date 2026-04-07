@@ -8,6 +8,6 @@ public class Client {
     private String name;
     private String address;
     private String phoneNumber;
-    private String Nif;
+    private String nif;
     private Policy policy;
 }
