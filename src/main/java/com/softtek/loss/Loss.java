@@ -1,5 +1,6 @@
 package com.softtek.loss;
 
+import com.softtek.goods.Good;
 import com.softtek.policy.Policy;
 import lombok.Data;
 
@@ -16,4 +17,5 @@ public class Loss {
     private Double lossAmount;
     private LossStatus lossStatus;
     private List<LossWarranty> lossWarranties;
+    private List<Good> goods;
 }
