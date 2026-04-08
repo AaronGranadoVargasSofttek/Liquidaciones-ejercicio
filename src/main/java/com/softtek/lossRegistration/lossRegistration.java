@@ -1,4 +1,4 @@
-package helloworld.liquidaciondiversos.lossRegistration;
+package com.softtek.lossRegistration;
 
 import java.util.List;
 

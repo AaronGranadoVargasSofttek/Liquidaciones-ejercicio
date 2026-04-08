@@ -1,4 +1,4 @@
-package helloworld.liquidaciondiversos.realValueCalculator;
+package com.softtek.realValueCalculator;
 
 public class realValueCalculatorImpl implements realValueCalculator
 {

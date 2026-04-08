@@ -1,4 +1,4 @@
-package helloworld.liquidaciondiversos.lossRegistration;
+package com.softtek.lossRegistration;
 
 import helloworld.liquidaciondiversos.Risk;
 import helloworld.liquidaciondiversos.realValueCalculator.realValueCalculatorImpl;
