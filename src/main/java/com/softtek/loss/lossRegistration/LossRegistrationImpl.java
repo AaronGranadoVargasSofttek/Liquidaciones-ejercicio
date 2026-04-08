@@ -1,14 +1,13 @@
-package com.softtek.lossRegistration;
+package com.softtek.loss.lossRegistration;
 
 import helloworld.liquidaciondiversos.Risk;
 import helloworld.liquidaciondiversos.realValueCalculator.realValueCalculatorImpl;
 
 import java.time.LocalDate;
-import java.util.AbstractMap;
 import java.util.HashMap;
 import java.util.List;
 
-public class lossRegistrationImpl implements lossRegistration
+public class LossRegistrationImpl implements LossRegistration
 {
     LocalDate date;
     String contactName;
@@ -19,7 +18,7 @@ public class lossRegistrationImpl implements lossRegistration
 
     HashMap<Good,Integer> realValues;
 
-    public lossRegistrationImpl(LocalDate date, String contactName, String location, Policy policy, Risk cause)
+    public LossRegistrationImpl(LocalDate date, String contactName, String location, Policy policy, Risk cause)
     {
         this.date = date;
         this.location = location;

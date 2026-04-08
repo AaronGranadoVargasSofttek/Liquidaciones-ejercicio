@@ -1,8 +1,8 @@
-package com.softtek.lossRegistration;
+package com.softtek.loss.lossRegistration;
 
 import java.util.List;
 
-public interface lossRegistration
+public interface LossRegistration
 {
     void calculateRealValues(List<Good> goods);
 }

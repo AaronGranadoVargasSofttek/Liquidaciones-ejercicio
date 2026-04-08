@@ -1,6 +1,6 @@
 package com.softtek.realValueCalculator;
 
-public class realValueCalculatorImpl implements realValueCalculator
+public class RealValueCalculatorImpl implements RealValueCalculator
 {
     private static final float AMORTIZATION_YEARS = 7;
 
