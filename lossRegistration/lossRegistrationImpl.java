@@ -1,10 +1,10 @@
 package helloworld.liquidaciondiversos.lossRegistration;
 
-import helloworld.liquidaciondiversos.Product;
 import helloworld.liquidaciondiversos.Risk;
 import helloworld.liquidaciondiversos.realValueCalculator.realValueCalculatorImpl;
 
 import java.time.LocalDate;
+import java.util.AbstractMap;
 import java.util.HashMap;
 import java.util.List;
 
@@ -30,7 +30,7 @@ public class lossRegistrationImpl implements lossRegistration
         calculateRealValues(this.goods);
     }
 
-    public getRealValues()
+    public HashMap<Good, Integer> getRealValues()
     {
         return this.realValues;
     }
